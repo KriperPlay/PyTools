@@ -12,7 +12,7 @@ PyTools - python lib with simple tools for logging,testing and information of fu
 # A little examples
 All examples in dir 'examples'
 
-* Simple unitest
+* Simple unittest
 * * ```python
     from pytools import Testing
     
