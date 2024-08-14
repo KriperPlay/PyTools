@@ -8,7 +8,7 @@ PyTools - python lib with simple tools for logging,testing and information of fu
 # How to install
 ```
 git clone https://github.com/KriperPlay/PyTools/
-cd release
+cd PyTools/release/
 pip install pytools-0.1.tar.gz
 ```
 # How to use
