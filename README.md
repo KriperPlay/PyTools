@@ -6,7 +6,11 @@
 PyTools - python lib with simple tools for logging,testing and information of func
 
 # How to install
-
+```
+git clone https://github.com/KriperPlay/PyTools/
+cd release
+pip install pytools-0.1-py3-none-any.whl
+```
 # How to use
 
 * Logging
@@ -107,3 +111,4 @@ PyTools - python lib with simple tools for logging,testing and information of fu
     ```
 
 # End
+Thx for download my lib, good use <3
