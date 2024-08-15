@@ -19,7 +19,7 @@ pip install pytools-0.1.tar.gz
     from pytools.main import *
     ```
 
-    ```
+    ```python
     #import only InfoFunc, for example
     from pytools.main import InfoFunc
     ```
