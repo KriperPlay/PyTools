@@ -13,6 +13,16 @@ pip install pytools-0.1.tar.gz
 ```
 # How to use
 
+* How to import
+* * ```python
+    #import all of lib
+    from pytools.main import *
+    ```
+
+    ```
+    #import only InfoFunc, for example
+    from pytools.main import InfoFunc
+    ```
 * Logging
 * * Class Logging:
   * * TimeLog(self,func,Lines,*args,**kwargs) - func(func),Lines(choice option: "Line" - just Line where error; "Lineno" - just line number where error; "Line&no" - line and line number where error)
@@ -42,7 +52,7 @@ pip install pytools-0.1.tar.gz
 
 * Simple unittest
 * * ```python
-    from pytools import Testing
+    from pytools.main import Testing
     
     def plus(a,b):
         return a-b
@@ -61,7 +71,7 @@ pip install pytools-0.1.tar.gz
     ```
 * Source code of func
 * * ```python
-    from pytools import InfoFunc
+    from pytools.main import InfoFunc
 
     def plus(a,b):
       return a+b
@@ -70,7 +80,7 @@ pip install pytools-0.1.tar.gz
     ```
 * Info of func
 * * ```python
-    from pytools import InfoFunc
+    from pytools.main import InfoFunc
 
     def a():
     """Testfunc"""
@@ -81,7 +91,7 @@ pip install pytools-0.1.tar.gz
 
 * Logging #1
 * * ```python
-    from pytools import Logger
+    from pytools.main import Logger
     
     def div(a,b):
         return a/b
@@ -91,7 +101,7 @@ pip install pytools-0.1.tar.gz
     ```
 * Logging #2
 * * ```python
-    from pytools import logging
+    from pytools.main import logging
 
     @logging
     def div(a,b):
@@ -101,7 +111,7 @@ pip install pytools-0.1.tar.gz
     ```
 * Logging #3
 * * ```python
-    from pytools import logging_to_file
+    from pytools.main import logging_to_file
 
     @logging_to_file("file.txt")
     def a():
